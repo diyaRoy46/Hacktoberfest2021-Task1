@@ -11,8 +11,8 @@ int main()
     printf("Enter your Age : ");//Get user Age
     printf("%f",&age);
     printf("Rate your programmings skills from A-D (A being the highest and D being the lowest : ");//Get user skill level
-    scanf(" %c",skill);
-    scanf("Thank you %c Happy Hacking",country);//Thank the user
+    scanf(" %c",&skill);
+    printf("Thank you %c Happy Hacking", country);//Thank the user
 
     return 0;
 }
